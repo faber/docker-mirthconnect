@@ -17,3 +17,15 @@ Download some [sample HL7 messages](http://www.hl7.org/implement/standards/produ
 Import the ADT\_A01.xsd sample HL7 message in Inspector and open the Message Sender pane. Open Send Options and change the Host/Port to DOCKER_IP:9661
 
 Highlight the message and click Send. You should see an Acknowledge message in the pane below and the message statistics should increase in Mirth Connect Administrator.
+
+
+Configuring the DB
+==================
+
+Provide this configuration through aptible config:set
+
+MIRTH_DATABASE=postgres
+MIRTH_DATABASE_URL=jdbc:postgresql://localhost:5432/mirthdb
+MIRTH_DATABASE_USERNAME=username
+MIRTH_DATABASE_PASSWORD=password
+DB_CERT="db server public ssl certificate"

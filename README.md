@@ -24,8 +24,8 @@ Configuring the DB
 
 Provide this configuration through aptible config:set
 
-MIRTH_DATABASE=postgres
-MIRTH_DATABASE_URL=jdbc:postgresql://localhost:5432/mirthdb
-MIRTH_DATABASE_USERNAME=username
-MIRTH_DATABASE_PASSWORD=password
-DB_CERT="db server public ssl certificate"
+* MIRTH_DATABASE=postgres
+* MIRTH_DATABASE_URL=jdbc:postgresql://localhost:5432/mirthdb
+* MIRTH_DATABASE_USERNAME=username
+* MIRTH_DATABASE_PASSWORD=password
+* DB_CERT="db server public ssl certificate"
